@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+
+  kpcli:
+    image: vincenthome/kpcli
+    networks:
+      - no-internet
+
+networks:
+  no-internet:
+    driver: bridge
+    internal: true
+  internet:
+    driver: bridge
