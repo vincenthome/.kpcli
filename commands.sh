@@ -4,5 +4,5 @@ then
   echo "Compromised. Internet Available"
 else
   echo "Secure. No Internet"
-  /usr/bin/kpcli --kdb /data/kp.kdbx
+  /usr/bin/kpcli --kdb=/data/kp.kdbx --key=/data/kp.key
 fi
