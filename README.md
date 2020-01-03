@@ -2,9 +2,9 @@
 
 ## Repos
 
-`[GitHub: https://github.com/vincenthome/kpcli](https://github.com/vincenthome/kpcli)`
+[GitHub: https://github.com/vincenthome/kpcli](https://github.com/vincenthome/kpcli)
 
-`[Docker Hub: https://hub.docker.com/r/vincenthome/kpcli](https://hub.docker.com/r/vincenthome/kpcli)`
+[Docker Hub: https://hub.docker.com/r/vincenthome/kpcli](https://hub.docker.com/r/vincenthome/kpcli)
 
 
 ## Requirement: a file kp.kdbx in current folder. (kpcli has trouble using keyfile)
