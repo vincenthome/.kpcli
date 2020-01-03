@@ -1,7 +1,15 @@
-# run keepass cli  (kpcli) under Docker Ubuntu with Network off to secure/prevent any outbound traffic.
+# Run keepass cli  (kpcli) under Docker Ubuntu with Network off to secure/prevent any outbound traffic.
 
-### Requirement: a file kp.kdbx in current folder. (kpcli has trouble using keyfile)
-#### todo: 
+## Repos
+
+`[GitHub: https://github.com/vincenthome/kpcli](https://github.com/vincenthome/kpcli)`
+
+`[Docker Hub: https://hub.docker.com/r/vincenthome/kpcli](https://hub.docker.com/r/vincenthome/kpcli)`
+
+
+## Requirement: a file kp.kdbx in current folder. (kpcli has trouble using keyfile)
+
+## Todo: 
 * pass .kdbx filename as param
 * try other kpcli command options
 * fix ping which take 10 secs to return
@@ -26,3 +34,4 @@ docker-compose run -v ~:/ --rm kpcli
 ```
 docker run -it -v ~:/ vincenthome/kpcli
 ```
+
