@@ -11,4 +11,4 @@ ENTRYPOINT ["/scripts/commands.sh"]
 # ENTRYPOINT vs CMD
 # https://www.ctl.io/developers/blog/post/dockerfile-entrypoint-vs-cmd/
 # ENTRYPOINT ["/usr/bin/kpcli","--kdb"]
-# CMD ["/kp.kdbx"]
+# CMD ["/data/kp.kdbx"]
