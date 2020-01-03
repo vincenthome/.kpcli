@@ -6,7 +6,7 @@
 ## To run
 
 1. Download docker-compose.yml
-2. run docker-compose:
+2. Run docker-compose:
 
 ```
 docker-compose run -v ~:/data --rm kpcli 
