@@ -1,9 +1,12 @@
 # run keepass cli  (kpcli) under ubuntu with Network off to secure/prevent any outbound traffic.
 
-## To run use docker-compose
-
 ### Requirement: a file kp.kdbx in current folder 
 #### todo: pass .kdbx filename as param
+
+## To run
+
+1. Download docker-compose.yml
+2. run docker-compose:
 
 ```
 docker-compose run -v ~:/data --rm kpcli 
