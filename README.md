@@ -20,7 +20,7 @@
 2. Run docker-compose:
 
 ```
-docker-compose run -v ~:/ --rm kpcli 
+docker-compose run -v ~:/data --rm kpcli 
 ```
 
 ## kpcli Tutorial
@@ -32,6 +32,6 @@ docker-compose run -v ~:/ --rm kpcli
 ## Troubleshoot using docker
 
 ```
-docker run -it -v ~:/ vincenthome/kpcli
+docker run -it -v ~:/data vincenthome/kpcli
 ```
 
