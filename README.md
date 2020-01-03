@@ -1,16 +1,12 @@
-# run keepass cli  (kpcli) under ubuntu
+# run keepass cli  (kpcli) under ubuntu with Network off to secure/prevent any outbound traffic.
 
-## To run
+## To run use docker-compose
 
-### require a file kp.kdbx in folder C:/mydb or ~/mydb
-
-```
-docker run -it -v C:/mydb:/data kp
-docker run -it -v ~/mydb:/data kp
-```
+### Requirement: a file kp.kdbx in current folder 
+#### todo: pass .kdbx filename as param
 
 ```
-docker-compose run -v ~/mydb:/data --rm kpcli 
+docker-compose run -v ~:/data --rm kpcli 
 ```
 
 ## kpcli Tutorial
@@ -19,3 +15,8 @@ docker-compose run -v ~/mydb:/data --rm kpcli
 
 [Best command-line Password Manager for Linux/ubuntu](https://www.techinfected.net/2016/05/kpcli-best-command-line-password-manager-ubuntu-linux-mint-debian.html)
 
+## Troubleshoot using docker
+
+```
+docker run -it -v ~:/data vincenthome/kpcli
+```
