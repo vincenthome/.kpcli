@@ -1,5 +1,5 @@
 #!/bin/bash
-if ping -c 1 google.com &> /dev/null
+if ping -c 1 -w 1 google.com &> /dev/null
 then
   echo "Compromised. Internet Available"
 else
