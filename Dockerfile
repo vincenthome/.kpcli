@@ -2,6 +2,7 @@ FROM ubuntu:latest
 
 RUN apt-get update -qq && \
     apt-get install -qqy kpcli && \
+    apt-get install -qqy Sub::Install && \
     apt-get install -qqy iputils-ping
 
 COPY commands.sh /scripts/commands.sh
