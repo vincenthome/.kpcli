@@ -11,5 +11,5 @@ networks:
   no-internet:
     driver: bridge
     internal: true
-  internet:
+  #internet:
     driver: bridge
