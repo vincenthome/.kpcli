@@ -25,9 +25,9 @@ docker-compose run -v ~:/data --rm kpcli
 
 ## kpcli Tutorial
 
-[kpcli](http://kpcli.sourceforge.net/)
-
-[Best command-line Password Manager for Linux/ubuntu](https://www.techinfected.net/2016/05/kpcli-best-command-line-password-manager-ubuntu-linux-mint-debian.html)
+* [kpcli](http://kpcli.sourceforge.net/)
+* [https://www.digitalocean.com/community/tutorials/how-to-use-kpcli-to-manage-keepass2-password-files-on-an-ubuntu-14-04-server](https://www.digitalocean.com/community/tutorials/how-to-use-kpcli-to-manage-keepass2-password-files-on-an-ubuntu-14-04-server)
+* [Best command-line Password Manager for Linux/ubuntu](https://www.techinfected.net/2016/05/kpcli-best-command-line-password-manager-ubuntu-linux-mint-debian.html)
 
 ## Troubleshoot using docker
 
