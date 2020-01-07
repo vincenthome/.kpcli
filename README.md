@@ -17,10 +17,15 @@
 ## To run
 
 1. Download docker-compose.yml
-2. Run docker-compose:
+2. Run docker-compose and bind to current directory:
 
+Mac/Linux 
 ```
-docker-compose run -v ~:/data --rm kpcli 
+docker-compose run -v ${PWD}:/data --rm kpcli 
+```
+Windows batch script
+```
+docker-compose run -v %cd%:/data --rm kpcli 
 ```
 
 ## kpcli Tutorial
