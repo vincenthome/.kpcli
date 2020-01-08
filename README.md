@@ -10,22 +10,22 @@
 ## Requirement: a file kp.kdbx in current folder. (kpcli has trouble using keyfile)
 
 ## Todo: 
-* pass .kdbx filename as param
 * try other kpcli command options
-* fix ping which take 10 secs to return
 
 ## To run
 
 1. Download docker-compose.yml
-2. Run docker-compose and bind to current directory:
+2. Run docker-compose, mount folder, optional provide custom .kdbx filename:
 
 Mac/Linux 
 ```
-docker-compose run -v ${PWD}:/data --rm kpcli 
+docker-compose run -v ${PWD}:/data --rm kpcli_srv 
+docker-compose run -v ${PWD}:/data --rm kpcli_srv my_custom_kp.kdbx
 ```
 Windows batch script
 ```
-docker-compose run -v %cd%:/data --rm kpcli 
+docker-compose run -v %cd%:/data --rm kpcli_srv 
+docker-compose run -v %cd%:/data --rm kpcli_srv my_custom_kp.kdbx 
 ```
 
 ## kpcli Tutorial
