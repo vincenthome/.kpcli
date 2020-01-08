@@ -4,5 +4,6 @@ then
   echo "Compromised. Internet Available"
 else
   echo "Secure. No Internet"
-  /usr/bin/kpcli --kdb=/data/kp.kdbx
+  echo "Opening kdbx file /data/$1"
+  /usr/bin/kpcli --kdb=/data/$1
 fi
